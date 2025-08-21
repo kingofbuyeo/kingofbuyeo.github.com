@@ -1,16 +1,22 @@
+---
+layout: default
+title: Home
+---
+
 <section id="projects">
   <h2>📂 Projects</h2>
-  <ul>
+  <div class="project-grid">
     {% for repo in site.data.repos %}
-      <li style="margin: 0.5em 0;">
+      <div class="project-card">
         <a href="{{ repo.url }}" target="_blank">
-          <strong>{{ repo.name }}</strong>
+          <img src="{{ repo.thumbnail | default: '/assets/img/placeholder.png' }}" alt="{{ repo.name }}">
+          <div class="project-content">
+            <h3>{{ repo.name }}</h3>
+            <p>{{ repo.summary }}</p>
+            <span class="lang">{{ repo.lang }}</span>
+          </div>
         </a>
-        <span style="color: #666;"> — {{ repo.lang }}</span>
-        <p style="margin: 0.2em 0 0 0.5em; font-size: 0.9em; color: #999;">
-          {{ repo.summary }}
-        </p>
-      </li>
+      </div>
     {% endfor %}
-  </ul>
+  </div>
 </section>
