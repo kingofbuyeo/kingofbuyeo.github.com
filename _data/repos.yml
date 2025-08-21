@@ -1,0 +1,35 @@
+- name: issued_coupon_app
+url: https://github.com/kingofbuyeo/issued_coupon_app
+lang: Kotlin
+stars: 3
+summary: "Kotlin 기반 Spring Boot WebFlux 쿠폰 발급 시스템 (Redis, Redis Stream, Lua 스크립트)"
+
+
+- name: swagger-webflux-test
+url: https://github.com/kingofbuyeo/swagger-webflux-test
+lang: Java
+summary: "WebFlux + Swagger 테스트 샘플"
+
+
+- name: kotlin-spark
+url: https://github.com/kingofbuyeo/kotlin-spark
+lang: Kotlin
+summary: "Kotlin + Spark 예제 및 실험"
+
+
+- name: user_ranking_project
+url: https://github.com/kingofbuyeo/user_ranking_project
+lang: Kotlin
+summary: "유저 랭킹 집계/파이프라인 예제"
+
+
+- name: wating_app
+url: https://github.com/kingofbuyeo/wating_app
+lang: Kotlin
+summary: "대기열(Waiting) 관리 관련 예제"
+
+
+- name: swiftstudy_memos
+url: https://github.com/kingofbuyeo/swiftstudy_memos
+lang: Swift
+summary: "Swift 학습용 메모/예제"
