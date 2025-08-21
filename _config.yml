@@ -1,1 +1,16 @@
-theme: jekyll-theme-cayman
+title: "kingofbuyeo — Projects & Notes"
+email: ""
+description: "Personal projects, study notes and demos from kingofbuyeo (Kotlin / Java / Swift)."
+baseurl: ""
+url: "https://kingofbuyeo.github.io"
+
+
+theme: minima
+paginate: 5
+
+
+plugins:
+- jekyll-feed
+
+
+default_lang: ko
