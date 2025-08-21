@@ -1,0 +1,16 @@
+<section id="projects">
+  <h2>📂 Projects</h2>
+  <ul>
+    {% for repo in site.data.repos %}
+      <li style="margin: 0.5em 0;">
+        <a href="{{ repo.url }}" target="_blank">
+          <strong>{{ repo.name }}</strong>
+        </a>
+        <span style="color: #666;"> — {{ repo.lang }}</span>
+        <p style="margin: 0.2em 0 0 0.5em; font-size: 0.9em; color: #999;">
+          {{ repo.summary }}
+        </p>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
