@@ -1,54 +1,60 @@
-- name: swagger-webflux-test
-  url: https://github.com/kingofbuyeo/swagger-webflux-test
-  lang: Java
-  summary: "Swagger2와 WebFlux 연동 테스트 샘플"  # 웹플럭스 설정 시 NPE 확인용 :contentReference[oaicite:0]{index=0}
+repos:
+  - name: swagger-webflux-test
+    url: https://github.com/kingofbuyeo/swagger-webflux-test
+    lang: Java
+    summary: "Swagger2 + WebFlux 연동 테스트 샘플" 
 
-- name: issued_coupon_app
-  url: https://github.com/kingofbuyeo/issued_coupon_app
-  lang: Kotlin
-  summary: "Spring WebFlux + Redis 기반 쿠폰 발급 시스템 예제" :contentReference[oaicite:1]{index=1}
+  - name: issued_coupon_app
+    url: https://github.com/kingofbuyeo/issued_coupon_app
+    lang: Kotlin
+    summary: "Spring WebFlux + Redis 기반 쿠폰 발급 시스템" 
 
-- name: kotlin-spark
-  url: https://github.com/kingofbuyeo/kotlin-spark
-  lang: Kotlin
-  summary: "Kotlin + Spark 실험/샘플 프로젝트" :contentReference[oaicite:2]{index=2}
+  - name: kotlin-spark
+    url: https://github.com/kingofbuyeo/kotlin-spark
+    lang: Kotlin
+    summary: "Kotlin + Spark 실험 및 샘플 프로젝트" 
 
-- name: user_ranking_project
-  url: https://github.com/kingofbuyeo/user_ranking_project
-  lang: Kotlin
-  summary: "게임 TOP 10 유저 랭킹 조회 API 예제" :contentReference[oaicite:3]{index=3}
+  - name: user_ranking_project
+    url: https://github.com/kingofbuyeo/user_ranking_project
+    lang: Kotlin
+    summary: "게임 TOP 10 유저 랭킹 조회 API" 
 
-- name: user_ranking_app
-  url: https://github.com/kingofbuyeo/user_ranking_app
-  lang: Kotlin
-  summary: "게임 플레이 후 랭킹 API, nGrinder 성능 테스트 포함" :contentReference[oaicite:4]{index=4}
+  - name: user_ranking_app
+    url: https://github.com/kingofbuyeo/user_ranking_app
+    lang: Kotlin
+    summary: "게임 플레이 후 랭킹 API + nGrinder 성능 테스트" 
 
-- name: wating_app
-  url: https://github.com/kingofbuyeo/wating_app
-  lang: Kotlin
-  summary: "대기열 관리 앱 예제" :contentReference[oaicite:5]{index=5}
+  - name: wating_app
+    url: https://github.com/kingofbuyeo/wating_app
+    lang: Kotlin
+    summary: "대기열 관리 앱 예제" 
 
-- name: swiftstudy_memos
-  url: https://github.com/kingofbuyeo/swiftstudy_memos
-  lang: Swift
-  summary: "Swift 학습 메모 및 예제 모음" :contentReference[oaicite:6]{index=6}
+  - name: swiftstudy_memos
+    url: https://github.com/kingofbuyeo/swiftstudy_memos
+    lang: Swift
+    summary: "Swift 학습 메모 및 예제" 
 
-- name: secondSwiftProject_calculator
-  url: https://github.com/kingofbuyeo/secondSwiftProject_calculator
-  lang: Swift
-  summary: "스터디용 계산기 프로젝트" :contentReference[oaicite:7]{index=7}
+  - name: secondSwiftProject_calculator
+    url: https://github.com/kingofbuyeo/secondSwiftProject_calculator
+    lang: Swift
+    summary: "스터디용 계산기 프로젝트" 
 
-- name: superdev_study
-  url: https://github.com/kingofbuyeo/superdev_study
-  lang: JavaScript
-  summary: "Vue 기반 게시판 구현 — 스터디 협업 레포" :contentReference[oaicite:8]{index=8}
+  - name: superdev_study
+    url: https://github.com/kingofbuyeo/superdev_study
+    lang: JavaScript
+    summary: "Vue 기반 게시판 스터디 레포" 
 
-- name: ticketing_app
-  url: https://github.com/kingofbuyeo/ticketing_app
-  lang: Kotlin
-  summary: "티켓팅/좌석배정 예제 앱" :contentReference[oaicite:9]{index=9}
+  - name: ticketing_app
+    url: https://github.com/kingofbuyeo/ticketing_app
+    lang: Kotlin
+    summary: "티켓팅/좌석배정 예제 앱" 
 
-- name: unit_testing_chapter4
-  url: https://github.com/kingofbuyeo/unit_testing_chapter4
-  lang: Kotlin
-  summary: "Unit testing 챕터 4 실습 예제" :contentReference[oaicite:10]{index=10}
+  - name: unit_testing_chapter4
+    url: https://github.com/kingofbuyeo/unit_testing_chapter4
+    lang: Kotlin
+    summary: "Unit Testing 챕터4 실습 예제" 
+
+  - name: kingofbuyeo.github.com
+    url: https://github.com/kingofbuyeo/kingofbuyeo.github.com
+    lang: Jekyll
+    summary: "본 깃허브 페이지 소스 (GitHub Pages)" 
